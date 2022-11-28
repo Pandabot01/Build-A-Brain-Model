@@ -114,19 +114,19 @@ void setup()
  //Sorry, I had to change it, was having trouble figuring out the formatting without it all being in one object
  sectionInfo[0] = new InfoDisplay("Brainstem: The foundation and oldest part of the brain. Responsible for most vital bodily functions, including autonomic reflexes and consciousness.",
                                   "Medulla Oblongata: Serves as the main connection between the brain and the Autonomic Nervous system, and both Sympathetic and Parasympathetic nervous systems. Responsible for all autonomous functions including body temperature, heart rate, and blood pressure.",
-                                  "Pons: Serve as a relay station between the cerebral cortex and the cerebellum and processes brainwaves during sleep. Vital because the Cerebral Cortex is responsible for many higher level functions such as critical thought, hearing, sensation, and sight, while the Cerebellum is responsible for muscular coordination and balance.",
-                                  "Reticular Formation: Responsible for arousal and determining whether you are awake or asleep. Fires electrical signals all over the brain to alert you to your surroundings and wake you up once the cerebral cortex ignites.");
+                                  "Pons: Serve as a relay station between the Cerebral Cortex and the Cerebellum and processes brainwaves during sleep. Vital because the Cerebral Cortex is responsible for many higher level functions such as critical thought, hearing, sensation, and sight, while the Cerebellum is responsible for muscular coordination and balance.",
+                                  "Reticular Formation: Responsible for arousal and determining whether you are awake or asleep. Fires electrical signals all over the brain to alert you to your surroundings and wake you up once the Cerebral Cortex ignites.");
 
  sectionInfo[1] = new InfoDisplay("Frontal Lobe: Responsible for planning movement, decision making and general planning",
                                   "Prefrontal Cortex: Responsible for decision making, critical thinking, personality formation, and emotional processing.",
-                                  "Basal Ganglia: Connects the cerebral cortex, thalamus, and cerebellum. Responsible for reward processing/production, habit formation, learning and movement.",
+                                  "Basal Ganglia: Connects the Cerebral Cortex, Thalamus, and Cerebellum. Responsible for motor control, reward processing/production, habit formation, and learning.",
                                   "Broca's Area: Responsible for speech production and articulation.");
 
  sectionInfo[2] = new InfoDisplay("Diencephalon: Serves as a relay for sensory information and autonomic control.",
                                   "Thalamus: Serves as a relay for sensory input to the rest of the brain, directs signals to the intended destination. (Does not directly manage smell).",
                                   "Hypothalamus: Responsible for the basic survival behaviors known as the 4-F’s, fighting, flighting, feeding, and reproduction.");
 
- sectionInfo[3] = new InfoDisplay("Limbic System: Barrier between the primal brain and the cerebral cortex",
+ sectionInfo[3] = new InfoDisplay("Limbic System: Barrier between the Primal Brain and the Cerebral Cortex",
                                   "Amygdala: Responsible for basic emotional behaviors and serves as the body’s fear switch.",
                                   "Hippocampus: Processes memories by turning short term memories into long term memories. Also makes complex synaptic connections to every region of the brain to encode information.",
                                   "Ventral Tegmental Pathway: Regulates reward consumption, learning, memory and addictive behaviors by controlling dopamine release.");
@@ -137,16 +137,16 @@ void setup()
                                   "Vestibulocerebellum: Helps with maintaining balance and eye tracking.");
  
  sectionInfo[5] = new InfoDisplay("Parietal Lobe: Responsible for processing sensations, evaluating how outside forces feel, the position of limbs in space and the amount of pressure to place on an object.",
-                                  "Primary Somatosensory Cortex: Directly receives sensory input from the Thalamus and transmits it to the mortar cortex to evaluate sensations and plan responses.",
-                                  "Secondary Somatosensory Area: Takes information from the S1 and compares it to past sensory patterns you experienced");
+                                  "Primary Somatosensory Cortex (S1): Directly receives sensory input from the Thalamus and transmits it to the Mortar Cortex to evaluate sensations and plan responses.",
+                                  "Secondary Somatosensory Area (S2): Takes information from the S1 and compares it to past sensory patterns you experienced");
 
  sectionInfo[6] = new InfoDisplay("Temporal Lobe: Responsible for memory, emotional responses, auditory understanding and language production.",
-                                  "Primary Auditory Cortex: Directly receives sound and determines the quality of it",
-                                  "Auditory Association Area: Processes sound from the A1 and compares it to what you've heard.");
+                                  "Primary Auditory Cortex (A1): Directly receives sound and determines the quality of it",
+                                  "Auditory Association Area (A2): Processes sound from the A1 and compares it to what you've heard.");
 
  sectionInfo[7] = new InfoDisplay("Occipital Lobe: Responsible for processing what you see.",
-                                  "Visual Cortex: Immediately identifies the basic data(Shapes/Shadows) of what you see.",
-                                  "Ventral Stream: Surrounds and supports the V1 to determine color, movement, and depth perception of an object and compares to what you've already seen.",
+                                  "Visual Cortex (V1): Immediately identifies the basic data(Shapes/Shadows) of what you see.",
+                                  "Ventral Stream (V2): Surrounds and supports the V1 to determine color, movement, and depth perception of an object and compares to what you've already seen.",
                                   "Fusiform Face Area/Gyrus: Responsible for recognizing faces and people.");
 
 }
@@ -191,7 +191,8 @@ void draw()
    }
    
    //there is a much more efficient way to do this but I'm too lazy to rearrange everything to do it lol
-   //at least it's not graded on how good the code is
+   //at least it's not graded on how good the code is 
+   //if it works it works 
    //displays information if button has been clicked
    
    boolean buttonClicked = false;   
